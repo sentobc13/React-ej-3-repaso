@@ -1,5 +1,7 @@
 
 import './App.css'
+import Artists from './components/Artists/Artists.jsx'
+import Header from './components/Header/Header.jsx'
 
 function App() {
   const songs = [
@@ -27,6 +29,8 @@ function App() {
   ]
   return (
     <div>
+      <Header/>
+      <Artists songs = {songs}/>
 
     </div>
   )
